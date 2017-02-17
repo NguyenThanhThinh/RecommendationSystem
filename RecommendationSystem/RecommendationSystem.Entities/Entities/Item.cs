@@ -6,7 +6,7 @@ namespace RecommendationSystem.Entities.Entities
     public class Item
     {
         [Key]
-        [DatabaseGenerated(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int item_Id { get; set; }
         [StringLength(150)]
         public string Name { get; set; }

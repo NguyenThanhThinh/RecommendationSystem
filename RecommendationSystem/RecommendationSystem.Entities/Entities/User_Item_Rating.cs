@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RecommendationSystem.Entities.Entities
 {
-    class User_Item_Rating
+   public class User_Item_Rating
     {
         [Key]
         [Column(Order = 0)]

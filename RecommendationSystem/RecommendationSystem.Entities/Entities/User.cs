@@ -7,7 +7,7 @@ namespace RecommendationSystem.Entities.Entities
     public partial class User
     {
         [Key]
-        [DatabaseGenerated(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int user_Id { get; set; }
         [StringLength(150)]
         public string Name { get; set; }
