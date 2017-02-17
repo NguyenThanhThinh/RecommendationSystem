@@ -13,7 +13,7 @@ namespace RecommendationSystem.Entities.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201702170754362_CreatedDB"; }
+            get { return "201702171004095_CreatedDB"; }
         }
         
         string IMigrationMetadata.Source
